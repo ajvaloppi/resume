@@ -39,15 +39,11 @@ body {
 
 #sidebar {
 	padding: 15px 5px 5px 5px;
-	width: 33%;
+	width: 37%;
 	display: inline-block;
 	border-right: double #424242;
 	padding-bottom: 100%;
 	margin-bottom: -100%;
-}
-
-#skills {
-	
 }
 
 .list {
@@ -71,7 +67,7 @@ body {
 
 #experience {
 	padding: 15px 5px 5px 5px;
-	width: 63%;
+	width: 58%;
 	display: inline-block;
 	float: right;
 }
