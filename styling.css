@@ -49,11 +49,11 @@ body {
 .list {
 	margin: 0;
 	margin-bottom: 15px;
-	padding-left: 35px;
+	padding-left: 25px;
 }
 
 .education {
-	margin-left: 20px;
+	margin-left: 10px;
 	margin-bottom: 15px;
 }
 
@@ -74,7 +74,11 @@ body {
 
 .work{
 	margin-bottom: 15px;
-	margin-left: 35px;
+	margin-left: 10px;
+}
+
+.work .list {
+	padding-left: 30px;
 }
 
 .info {
@@ -82,7 +86,7 @@ body {
 }
 
 .title {
-	font-weight: 900;
+	font-weight: 700;
 }
 
 .title, .place {
@@ -90,12 +94,13 @@ body {
 }
 
 .location, .date{
-	width: 29%;
+	width: 25%;
 	text-align: right;
+	margin-right: 10px;
 }
 
 .duties {
-	padding-right: 15px;
+	padding-right: 35px;
 }
 
 .duties li {
