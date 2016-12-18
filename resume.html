@@ -1,44 +1,19 @@
 <!DOCTYPE html>
-<html lang="en" ng-app='myResume'>
+<html lang="en" ng-app="myResume">
 <head>
 	<meta charset="UTF-8">
 	<title>RESUME</title>
 	<link rel="stylesheet" href="css/styling.css"/>
 </head>
 <body>
-	<div id="header" header-directive ng-controller='headerController'></div>
+	<div id="header" header-directive ng-controller="headerController"></div>
 	<div id="body">
 		<div id="sidebar">
-			<div id="skills">
-				<div class="header categoryHeader">
-					Skills
-				</div>
-				<div skills-directive ng-controller='skillsController'></div>
-			</div>
-			<div id="education">
-				<div class="header categoryHeader">
-					Education
-				</div>
-				<div education-directive ng-controller='educationController'></div>
-			</div>
-			<div id="volunteer">
-				<div class="header categoryHeader">
-					Volunteer Experience
-				</div>
-				<div volunteer-directive ng-controller="volunteerController"></div>
-			</div>
-			<div id="awards">
-				<div class="header categoryHeader">
-					Awards
-				</div>
-				<div awards-directive ng-controller="awardsController"></div>
-			</div>
-			<div id="interests">
-				<div class="header categoryHeader">
-					Interests
-				</div>
-				<div interests-directive ng-controller="interestsController"></div>
-			</div>
+			<div id="skills" skills-directive ng-controller="skillsController"></div>
+			<div id="education" education-directive ng-controller="educationController"></div>
+			<div id="volunteer" volunteer-directive ng-controller="volunteerController"></div>
+			<div id="awards" awards-directive ng-controller="awardsController"></div>
+			<div id="interests" interests-directive ng-controller="interestsController"></div>
 		</div>
 		<div id="experience">
 			<div id="work">
@@ -225,14 +200,6 @@
 					</div>
 				</div>
 			</div>
-		</div>
-	</div>
-	<div id="footer">
-		<div id="education">
-
-		</div>
-		<div id="extra">
-
 		</div>
 	</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
