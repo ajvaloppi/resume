@@ -25,92 +25,19 @@
 				<div class="header categoryHeader">
 					Volunteer Experience
 				</div>
-				<ul class="list">
-					<li>
-						High School Stream Program Director
-						<ul class="subPoint">
-							<li>
-								Future Female Techmakers Conference
-							</li>
-						</ul>
-					</li>
-					<li>
-						Database Workshop Facilitator
-						<ul class="subPoint">
-							<li>
-								Catalyst Conference for Grade 11 Girls
-							</li>
-						</ul>
-					</li>
-					<li>
-						Orientation Leader
-						<ul class="subPoint">
-							<li>
-								University of Waterloo
-							</li>
-						</ul>
-					</li>
-					<li>
-						Writer and Illustrator for the Math Department's newspaper, mathNEWS
-						<ul class="subPoint">
-							<li>
-								University of Waterloo
-							</li>
-						</ul>
-					</li>
-					<li>
-						Member of UW Knitting Club
-						<ul class="subPoint">
-							<li>
-								University of Waterloo
-							</li>
-						</ul>
-					</li>
-				</ul>
+				<div volunteer-directive ng-controller="volunteerController"></div>
 			</div>
 			<div id="awards">
 				<div class="header categoryHeader">
 					Awards
 				</div>
-				<ul class="list">
-					<li>
-						Ontario Scholar, Honours Society
-					</li>
-					<li>
-						Manufacturing Subject Award
-					</li>
-					<li>
-						Diane Finley Leadership Award
-					</li>
-					<li>
-						Ontario Principals Council Scholarship
-					</li>
-					<li>
-						Nominated for Valedictorian
-					</li>
-				</ul>
+				<div awards-directive ng-controller="awardsController"></div>
 			</div>
 			<div id="interests">
 				<div class="header categoryHeader">
 					Interests
 				</div>
-				<ul class="list">
-					<li>
-						Board games
-					</li>
-					<li>
-						Knitting
-					</li>
-					<li>
-						Yoga
-					</li>
-					<li>
-						Dungeons & Dragons
-					</li>
-					<li>
-						Tie dye
-					</li>
-				</ul>
+				<div interests-directive ng-controller="interestsController"></div>
 			</div>
 		</div>
 		<div id="experience">
@@ -318,5 +245,8 @@
 	<script src="angular/directives/header.js" type="text/javascript"></script>
 	<script src="angular/directives/skills.js" type="text/javascript"></script>
 	<script src="angular/directives/education.js" type="text/javascript"></script>
+	<script src="angular/directives/volunteer.js" type="text/javascript"></script>
+	<script src="angular/directives/awards.js" type="text/javascript"></script>
+	<script src="angular/directives/interests.js" type="text/javascript"></script>
 </body>
 </html>

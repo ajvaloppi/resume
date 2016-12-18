@@ -1,5 +1,8 @@
 var app = angular.module("myResume", [
 	'header',
 	'skills',
-	'education'
+	'education',
+	'volunteer',
+	'awards',
+	'interests'
 ]); 
