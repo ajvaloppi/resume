@@ -4,7 +4,7 @@ angular.module('myResume').factory('HeaderService',
         var name = 'Amanda J. Valoppi';
         var address = '42°N 50’ 39.52’’, 80°W 18’ 6.17’’';
         var phone = '226-206-1422';
-        var email = 'ajvalopp@uwaterloo.ca';
+        var email = 'amanda.valoppi@gmail.com';
         var website = 'github.com/ajvaloppi';
 
         return ({

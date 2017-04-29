@@ -8,6 +8,7 @@ angular.module('myResume').factory('WorkService',
             title: 'Web Developer',
             duration: '05/16 - 12/16',
             duties: [
+            'Implemented the UI for a in-house message report moderating tool',
             'Built features for chat bots representing 6 beauty and fashion YouTubers',
             'Created a frontend application in HTML5, CSS3, and Javascript to organize and manage the virtual line for 4 experiential booths at Beautycon NYC',
             'Oversaw the virtual line of L\'Oréal\'s experiential booth at Beautycon NYC',
