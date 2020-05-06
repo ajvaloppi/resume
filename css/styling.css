@@ -1,8 +1,8 @@
 body {
-	font-family: "Franklin Gothic Medium";
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	color: #424242;
-	padding: 5px;
-	font-size: 13px;
+	padding: 12px;
+	font-size: 12px;
 }
 
 #header {
@@ -16,7 +16,7 @@ body {
 }
 
 #name {
-	font-size: 30px;
+	font-size: 32px;
 }
 
 .contact {
@@ -34,31 +34,37 @@ body {
 
 .categoryHeader {
 	font-size: 18px;
-	margin-bottom: 5px;
+	margin-bottom: 4px;
 }
 
 #sidebar {
-	padding: 15px 5px 5px 5px;
-	width: 37%;
+	padding: 12px 4px 12px 4px;
+	width: 100%;
 	display: inline-block;
-	border-right: double #424242;
-	padding-bottom: 100%;
-	margin-bottom: -100%;
+	border-bottom: double #424242;
 }
 
 .list {
 	margin: 0;
-	margin-bottom: 15px;
-	padding-left: 25px;
+	padding-left: 24px;
+	display: inline-block;
 }
 
-.education {
-	margin-left: 10px;
-	margin-bottom: 15px;
+#education {
+	display: inline-block;
+	padding-bottom: 12px;
+	width: 40%;
+	border-right: double #424242;
+}
+
+#skills {
+	display: inline-block;
+	padding-left: 12px;
+	padding-bottom: 12px;
 }
 
 .subPoint {
-	padding-left: 15px;
+	padding-left: 16px;
 	font-size: 12px;
 	font-weight: 100;
 	list-style-type: none;
@@ -66,23 +72,27 @@ body {
 }
 
 #experience {
-	padding: 15px 5px 5px 5px;
-	width: 58%;
+	padding: 12px 4px 4px 4px;
 	display: inline-block;
 	float: right;
 }
 
 .work{
-	margin-bottom: 15px;
-	margin-left: 10px;
+	margin-bottom: 12px;
+	margin-left: 12px;
+}
+
+.workInfo {
+	margin-bottom: 4px;
 }
 
 .work .list {
-	padding-left: 30px;
+	padding-left: 32px;
 }
 
 .info {
 	display: inline-block;
+	font-size: 16px;
 }
 
 .title {
@@ -90,17 +100,12 @@ body {
 }
 
 .title, .place {
-	width: 70%;
-}
-
-.location, .date{
-	width: 25%;
-	text-align: right;
-	margin-right: 10px;
+	width: 30%;
+	font-size: 16px;
 }
 
 .duties {
-	padding-right: 35px;
+	padding-right: 36px;
 }
 
 .duties li {
