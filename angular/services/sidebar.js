@@ -3,7 +3,7 @@ angular.module('myResume').factory('SidebarService',
     function () {
         var skills = [
         'ReactJS',
-        'Typescript',
+        'TypeScript',
         'HTML5',
         'CSS3',
         'Python',
@@ -18,43 +18,6 @@ angular.module('myResume').factory('SidebarService',
             location: 'University of Waterloo',
             date: '09/12 - 08/17'
         }]
-
-        // var volunteering = [{
-        //     position: 'High School Stream Program Director',
-        //     organization: 'Future Female Techmakers Conference'
-        // },
-        // {
-        //     position: 'Database Workshop Facilitator',
-        //     organization: 'Catalyst Conference for Grade 11 Girls'
-        // },
-        // {
-        //     position: 'Orientation Leader',
-        //     organization: 'University of Waterloo'
-        // },
-        // {
-        //     position: 'Writer and Illustrator for the Math Department\'s newspaper, mathNEWS',
-        //     organization: 'University of Waterloo'
-        // },
-        // {
-        //     position: 'Member of UW Knitting Club',
-        //     organization: 'University of Waterloo'
-        // }]
-
-        // var awards = [
-        // 'Ontario Scholar, Honours Society',
-        // 'Manufacturing Subject Award',
-        // 'Diane Finley Leadership Award',
-        // 'Ontario Principals Council Scholarship',
-        // 'Nominated for Valedictorian'
-        // ]
-
-        // var interests = [
-        // 'Board games',
-        // 'Knitting',
-        // 'Yoga',
-        // 'Dungeons & Dragons',
-        // 'Tie dye'
-        // ]
 
         return ({
             getSkills: getSkills,

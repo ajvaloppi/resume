@@ -3,6 +3,20 @@ angular.module('myResume').factory('WorkService',
     function () {
         var work = [
         {
+            company: 'Lyft Inc.',
+            location: 'San Francisco, CA',
+            title: 'Software Engineer',
+            duration: '01/18 - Present',
+            duties: [
+            "Led development of a project to improve an administrator's invitation process; wrote a highly detailed and well structured technical specification ensuring ease of understanding for readers; scoped the work, communicated progress, and oversaw the work of 2 other engineers; first project in codebase to fully utilize TypeScript", // invite people 'highly detailed and well structured' 'rigor and attention to detail'
+            'Identified opportunities to improve testing consistency and quality; introduced the usage of snapshot testing for UI elements; always ensured high test coverage by updating coverage threshold', // testing (snapshots and increasing coverage)
+            'Ran weekly Enterprise wide on-call handoff meeting; identified scaling gaps with existing process; proposed and documented a new system allowing individual team ownership; reduced meeting time by 50% without sacrificing value', // on-call split
+            'Improved cross functional alignment and coordination with business stakeholders (Support, Sales, and Revenue & Operations teams); organized immersions, meetings, and lunches to provide non-engineering teams opportunity for feedback and insight into initiatives', // cross functional integration
+            'Mentored both interns and peer engineers in professional development; created achievable and meaningful action items for mentees', // mentorship
+            'Consistently updated documentation to improve overall team execution', // docs
+            ]
+        },
+        {
             company: 'Kik Interactive Inc.',
             location: 'Waterloo, ON',
             title: 'Web Developer',
@@ -11,7 +25,7 @@ angular.module('myResume').factory('WorkService',
             'Implemented the UI for a in-house message report moderating tool',
             'Built features for chat bots representing 6 beauty and fashion YouTubers',
             'Created a frontend application in HTML5, CSS3, and Javascript to organize and manage the virtual line for 4 experiential booths at Beautycon NYC',
-            'Oversaw the virtual line of L\'Oréal\'s experiential booth at Beautycon NYC',
+            "Oversaw the virtual line of L'Oréal's experiential booth at Beautycon NYC",
             'Managed and developed an experimental chat bot application in Python for users to connect with others who share similar interests; presented application\'s results during company wide meeting',
             'Designed flow documents for multiple bot experiences while reviewing and adjusting code for timely releases',
             'Organized and participated in work related extracurricular activities, such as mentoring younger co-op students in web development, creating the first knitting group, and actively attending morning yoga'
