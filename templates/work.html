@@ -2,20 +2,22 @@
 	Work Experience
 </div>
 <div class="work" ng-repeat="job in work">
-	<div>
-		<div class="place info">
-			{{job.company}}
+	<div class="workInfo">
+		<div>
+			<div class="place info">
+				{{job.company}}
+			</div>
+			<div class="location info">
+				{{job.location}}
+			</div>
 		</div>
-		<div class="location info">
-			{{job.location}}
-		</div>
-	</div>
-	<div>
-		<div class="title info">
-			{{job.title}}
-		</div>
-		<div class="date info">
-			{{job.duration}}
+		<div>
+			<div class="title info">
+				{{job.title}}
+			</div>
+			<div class="date info">
+				{{job.duration}}
+			</div>
 		</div>
 	</div>
 	<div class="duties">

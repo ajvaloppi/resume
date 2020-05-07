@@ -2,8 +2,8 @@ angular.module('myResume').factory('HeaderService',
     [
     function () {
         var name = 'Amanda J. Valoppi';
-        var address = '42°N 50’ 39.52’’, 80°W 18’ 6.17’’';
-        var phone = '226-206-1422';
+        var address = `37° 47' 11.796''N, 122° 23' 56.76''W`;
+        var phone = '650-733-5677';
         var email = 'amanda.valoppi@gmail.com';
         var website = 'github.com/ajvaloppi';
 

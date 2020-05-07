@@ -2,7 +2,18 @@
 	Skills
 </div>
 <ul class="list">
-	<li ng-repeat="skill in skills">
+	<li ng-repeat="skill in skills" ng-show="$index % 3 == 0">
 		{{skill}}
 	</li>
 </ul>
+<ul class="list">
+	<li ng-repeat="skill in skills" ng-show="$index % 3 == 1">
+		{{skill}}
+	</li>
+</ul>
+<ul class="list">
+	<li ng-repeat="skill in skills" ng-show="$index % 3 == 2">
+		{{skill}}
+	</li>
+</ul>
+
